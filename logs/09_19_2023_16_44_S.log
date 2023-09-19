@@ -1,0 +1,63 @@
+[2023-09-19 16:45:10,610] Line No. 21 root - INFO - Opened https://www.google.com/maps.
+[2023-09-19 16:45:21,802] Line No. 31 root - INFO - Scrapping from Google Maps and Writing to leads1.csv file.
+[2023-09-19 16:45:21,803] Line No. 30 root - INFO - Searching for Steel Companies in pune.
+[2023-09-19 16:45:30,113] Line No. 71 root - INFO - Found 'Name': 'Jondal Vishwas Iron Steel Company'
+[2023-09-19 16:45:30,138] Line No. 55 root - INFO - Found 'address': 'B/15, Kalpatra Plaza, 224, Bhawani Peth, Bhawani Peth, Pune, Maharashtra 411002'
+[2023-09-19 16:45:30,150] Line No. 57 root - ERROR - Element of type 'authority' not found.
+[2023-09-19 16:45:30,170] Line No. 55 root - INFO - Found 'phone:tel': '020 2638 6369'
+[2023-09-19 16:45:30,189] Line No. 71 root - INFO - Found 'rating': ''
+[2023-09-19 16:45:33,271] Line No. 71 root - INFO - Found 'Name': 'Mukesh Steel Company'
+[2023-09-19 16:45:33,298] Line No. 55 root - INFO - Found 'address': 'Sr.No. 267, Rasta Peth, Pune, Maharashtra 411011'
+[2023-09-19 16:45:33,309] Line No. 57 root - ERROR - Element of type 'authority' not found.
+[2023-09-19 16:45:33,315] Line No. 57 root - ERROR - Element of type 'phone:tel' not found.
+[2023-09-19 16:45:33,339] Line No. 71 root - INFO - Found 'rating': ''
+[2023-09-19 16:45:36,423] Line No. 71 root - INFO - Found 'Name': 'Ritesh Steel Company'
+[2023-09-19 16:45:36,443] Line No. 55 root - INFO - Found 'address': 'no 13b, 13/B, Parvati Industrial Estate Rd, Adinath Society, Parvati Industrial Estate, Parvati Paytha, Pune, Maharashtra 411009'
+[2023-09-19 16:45:36,447] Line No. 57 root - ERROR - Element of type 'authority' not found.
+[2023-09-19 16:45:36,466] Line No. 55 root - INFO - Found 'phone:tel': '020 2633 6306'
+[2023-09-19 16:45:36,494] Line No. 71 root - INFO - Found 'rating': '5.0
+(4)'
+[2023-09-19 16:45:39,577] Line No. 71 root - INFO - Found 'Name': 'Union Steel Industries'
+[2023-09-19 16:45:39,601] Line No. 55 root - INFO - Found 'address': 'MEERA LOGISTICS, Maharashtra Vidhyut Department Quarters, next to Abhay CNG Pump, Hadapsar, Phursungi, Pune, Maharashtra 412308'
+[2023-09-19 16:45:39,629] Line No. 55 root - INFO - Found 'authority': 'unionsteel.in'
+[2023-09-19 16:45:39,648] Line No. 55 root - INFO - Found 'phone:tel': '020 2687 2037'
+[2023-09-19 16:45:39,664] Line No. 71 root - INFO - Found 'rating': '4.8
+(6)'
+[2023-09-19 16:45:42,759] Line No. 71 root - INFO - Found 'Name': 'Bhuleshwar Steel & Alloys Pvt. Ltd.'
+[2023-09-19 16:45:42,768] Line No. 55 root - INFO - Found 'address': '233, Pune - Solapur Rd, Vaiduwadi, Suryalok Nagari, Pune Cantonment, Pune, Maharashtra 411001'
+[2023-09-19 16:45:42,797] Line No. 55 root - INFO - Found 'authority': 'bhuleshwarsteel.com'
+[2023-09-19 16:45:42,819] Line No. 55 root - INFO - Found 'phone:tel': '020 2615 5999'
+[2023-09-19 16:45:42,831] Line No. 71 root - INFO - Found 'rating': ''
+[2023-09-19 16:45:45,968] Line No. 71 root - INFO - Found 'Name': 'Om Steel Industries'
+[2023-09-19 16:45:46,007] Line No. 55 root - INFO - Found 'address': '203, Decision Tower, 2nd Floor, Pune - Satara Rd, Pune, Maharashtra 411037'
+[2023-09-19 16:45:46,026] Line No. 55 root - INFO - Found 'authority': 'omsteel.com'
+[2023-09-19 16:45:46,044] Line No. 55 root - INFO - Found 'phone:tel': '093254 04015'
+[2023-09-19 16:45:46,065] Line No. 71 root - INFO - Found 'rating': '4.6
+(21)'
+[2023-09-19 16:45:49,178] Line No. 71 root - INFO - Found 'Name': 'Ashapura Steel Industries'
+[2023-09-19 16:45:49,222] Line No. 55 root - INFO - Found 'address': '2nd Floor, 203 Decision Tower, Pune - Satara Rd, Pune, Maharashtra 411037'
+[2023-09-19 16:45:49,230] Line No. 57 root - ERROR - Element of type 'authority' not found.
+[2023-09-19 16:45:49,245] Line No. 55 root - INFO - Found 'phone:tel': '093254 04015'
+[2023-09-19 16:45:49,257] Line No. 71 root - INFO - Found 'rating': '3.0
+(1)'
+[2023-09-19 16:45:51,399] Line No. 81 root - INFO - Browser Closed.
+[2023-09-19 16:45:51,408] Line No. 83 root - INFO - Scrapped data written into leads1.csv
+[2023-09-19 16:46:00,856] Line No. 84 root - INFO - Completed Storing of csv file data to Google Sheets.
+[2023-09-19 16:46:02,733] Line No. 21 root - INFO - Logged into Gmail Account.
+[2023-09-19 16:46:02,733] Line No. 130 root - INFO - Email to Jondal Vishwas Iron Steel Company: Hello from Mohit.
+[2023-09-19 16:46:02,733] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:46:02,733] Line No. 130 root - INFO - Email to Mukesh Steel Company: Hello from Mohit.
+[2023-09-19 16:46:02,733] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:46:02,733] Line No. 130 root - INFO - Email to Ritesh Steel Company: Hello from Mohit.
+[2023-09-19 16:46:02,733] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:46:02,733] Line No. 130 root - INFO - Email to Union Steel Industries: Hello from Mohit.
+[2023-09-19 16:46:02,733] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:46:02,733] Line No. 130 root - INFO - Email to Bhuleshwar Steel & Alloys Pvt. Ltd.: Hello from Mohit.
+[2023-09-19 16:46:02,733] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:46:02,733] Line No. 130 root - INFO - Email to Om Steel Industries: Hello from Mohit.
+[2023-09-19 16:46:02,742] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:46:02,742] Line No. 130 root - INFO - Email to Ashapura Steel Industries: Hello from Mohit.
+[2023-09-19 16:46:02,743] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:46:03,010] Line No. 56 root - INFO - Logged out of Gmail Account.
+[2023-09-19 16:46:03,026] Line No. 149 root - INFO - Updated data written into leads1.csv
+[2023-09-19 16:46:03,531] Line No. 157 root - INFO - Updated Google Sheet with Email Text and Status.

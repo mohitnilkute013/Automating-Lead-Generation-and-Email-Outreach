@@ -1,0 +1,11 @@
+beautifulsoup4
+selenium
+requests
+gspread
+oauth2client
+openai
+python-dotenv
+Flask
+pandas
+ipykernel
+-e .

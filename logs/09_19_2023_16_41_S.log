@@ -1,0 +1,66 @@
+[2023-09-19 16:41:48,505] Line No. 21 root - INFO - Opened https://www.google.com/maps.
+[2023-09-19 16:41:55,997] Line No. 31 root - INFO - Scrapping from Google Maps and Writing to leads.csv file.
+[2023-09-19 16:41:55,998] Line No. 30 root - INFO - Searching for IT companies in pune.
+[2023-09-19 16:42:04,319] Line No. 71 root - INFO - Found 'Name': 'DomS IT Solutions Pvt. Ltd.'
+[2023-09-19 16:42:04,342] Line No. 55 root - INFO - Found 'address': 'Office No. 423, Pride Purple Square, Kalewadi Phata, Wakad, Pune, Maharashtra 411057'
+[2023-09-19 16:42:04,362] Line No. 55 root - INFO - Found 'authority': 'domsit.com'
+[2023-09-19 16:42:04,395] Line No. 55 root - INFO - Found 'phone:tel': '072188 79622'
+[2023-09-19 16:42:04,422] Line No. 71 root - INFO - Found 'rating': '4.3
+(20)'
+[2023-09-19 16:42:07,522] Line No. 71 root - INFO - Found 'Name': 'GeekyWorks IT Solutions Pvt. Ltd.'
+[2023-09-19 16:42:07,541] Line No. 55 root - INFO - Found 'address': '3rd Floor, Srushti Elegance, Balewadi Phata, Baner, near Salt Hotel, Pune, Maharashtra 411045'
+[2023-09-19 16:42:07,559] Line No. 55 root - INFO - Found 'authority': 'geekyworks.com'
+[2023-09-19 16:42:07,576] Line No. 55 root - INFO - Found 'phone:tel': '086690 60963'
+[2023-09-19 16:42:07,596] Line No. 71 root - INFO - Found 'rating': '4.8
+(47)'
+[2023-09-19 16:42:10,694] Line No. 71 root - INFO - Found 'Name': 'Whiz IT Services- IT Consulting | Software Development | IoT Solutions Company in Pune-India'
+[2023-09-19 16:42:10,711] Line No. 55 root - INFO - Found 'address': '5th floor, Ujwal House, Oposite Honda Service Center, near Kailas Jeevan Factory, Pune, Maharashtra 411041'
+[2023-09-19 16:42:10,724] Line No. 57 root - ERROR - Element of type 'authority' not found.
+[2023-09-19 16:42:10,743] Line No. 55 root - INFO - Found 'phone:tel': '070200 99372'
+[2023-09-19 16:42:10,762] Line No. 71 root - INFO - Found 'rating': '3.7
+(48)'
+[2023-09-19 16:42:13,844] Line No. 71 root - INFO - Found 'Name': 'Prism IT Solutions Pvt. Ltd.'
+[2023-09-19 16:42:13,862] Line No. 55 root - INFO - Found 'address': 'Demech House, First Floor, 814, Law College Rd, Erandwane, Pune, Maharashtra 411004'
+[2023-09-19 16:42:13,880] Line No. 55 root - INFO - Found 'authority': 'prismitindia.com'
+[2023-09-19 16:42:13,900] Line No. 55 root - INFO - Found 'phone:tel': '072472 43340'
+[2023-09-19 16:42:13,922] Line No. 71 root - INFO - Found 'rating': '4.7
+(942)'
+[2023-09-19 16:42:17,028] Line No. 71 root - INFO - Found 'Name': 'Xoyal It Services'
+[2023-09-19 16:42:17,055] Line No. 55 root - INFO - Found 'address': 'Phase 1, Boulevard Tower, Office 208, near, Sadhu Vaswani Chowk, Pune, Maharashtra 411001'
+[2023-09-19 16:42:17,072] Line No. 55 root - INFO - Found 'authority': 'xoyal.com'
+[2023-09-19 16:42:17,090] Line No. 55 root - INFO - Found 'phone:tel': '098601 83377'
+[2023-09-19 16:42:17,109] Line No. 71 root - INFO - Found 'rating': '3.7
+(56)'
+[2023-09-19 16:42:20,211] Line No. 71 root - INFO - Found 'Name': 'Ecotech IT Solutions'
+[2023-09-19 16:42:20,227] Line No. 55 root - INFO - Found 'address': 'Sunshree Woods Co-operative Society Limited, No. 15, NIBM Post Office Rd, next to IDBI Bank, Clover Hills, Kondhwa, Pune, Maharashtra 411048'
+[2023-09-19 16:42:20,256] Line No. 55 root - INFO - Found 'authority': 'ecotechservices.com'
+[2023-09-19 16:42:20,276] Line No. 55 root - INFO - Found 'phone:tel': '095455 57091'
+[2023-09-19 16:42:20,284] Line No. 71 root - INFO - Found 'rating': '4.4
+(70)'
+[2023-09-19 16:42:23,407] Line No. 71 root - INFO - Found 'Name': 'Suma Soft'
+[2023-09-19 16:42:23,444] Line No. 55 root - INFO - Found 'address': '2nd Floor, Suma Center, opposite HIMALI SOCIETY, Swaroop Society, Himali Society, Vakil Nagar, Erandwane, Pune, Maharashtra 411004'
+[2023-09-19 16:42:23,464] Line No. 55 root - INFO - Found 'authority': 'sumasoft.com'
+[2023-09-19 16:42:23,483] Line No. 55 root - INFO - Found 'phone:tel': '020 4013 0400'
+[2023-09-19 16:42:23,502] Line No. 71 root - INFO - Found 'rating': '3.9
+(1,192)'
+[2023-09-19 16:42:25,728] Line No. 81 root - INFO - Browser Closed.
+[2023-09-19 16:42:25,732] Line No. 83 root - INFO - Scrapped data written into leads.csv
+[2023-09-19 16:42:35,779] Line No. 84 root - INFO - Completed Storing of csv file data to Google Sheets.
+[2023-09-19 16:42:38,821] Line No. 21 root - INFO - Logged into Gmail Account.
+[2023-09-19 16:42:38,823] Line No. 130 root - INFO - Email to DomS IT Solutions Pvt. Ltd.: Hello from Mohit.
+[2023-09-19 16:42:38,824] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:42:38,825] Line No. 130 root - INFO - Email to GeekyWorks IT Solutions Pvt. Ltd.: Hello from Mohit.
+[2023-09-19 16:42:38,827] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:42:38,828] Line No. 130 root - INFO - Email to Whiz IT Services- IT Consulting | Software Development | IoT Solutions Company in Pune-India: Hello from Mohit.
+[2023-09-19 16:42:38,830] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:42:38,832] Line No. 130 root - INFO - Email to Prism IT Solutions Pvt. Ltd.: Hello from Mohit.
+[2023-09-19 16:42:38,833] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:42:38,835] Line No. 130 root - INFO - Email to Xoyal It Services: Hello from Mohit.
+[2023-09-19 16:42:38,836] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:42:38,838] Line No. 130 root - INFO - Email to Ecotech IT Solutions: Hello from Mohit.
+[2023-09-19 16:42:38,839] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:42:38,840] Line No. 130 root - INFO - Email to Suma Soft: Hello from Mohit.
+[2023-09-19 16:42:38,841] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:42:39,134] Line No. 56 root - INFO - Logged out of Gmail Account.
+[2023-09-19 16:42:39,141] Line No. 149 root - INFO - Updated data written into leads.csv
+[2023-09-19 16:42:39,636] Line No. 157 root - INFO - Updated Google Sheet with Email Text and Status.

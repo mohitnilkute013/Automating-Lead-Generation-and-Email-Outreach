@@ -1,0 +1,50 @@
+[2023-09-19 16:47:04,533] Line No. 21 root - INFO - Opened https://www.google.com/maps.
+[2023-09-19 16:47:17,361] Line No. 31 root - INFO - Scrapping from Google Maps and Writing to leads2.csv file.
+[2023-09-19 16:47:17,361] Line No. 30 root - INFO - Searching for Bicycle stores in pune.
+[2023-09-19 16:47:25,669] Line No. 71 root - INFO - Found 'Name': 'Swastik Cycle - Bicycle Dealers in Pune'
+[2023-09-19 16:47:25,701] Line No. 55 root - INFO - Found 'address': 'Shop No.7, Khedekar Chambers, Pratik Nagar Rd, beside HDFC Bank, Mohanwadi, Yerawada, Pune, Maharashtra 411006'
+[2023-09-19 16:47:25,720] Line No. 55 root - INFO - Found 'authority': 'swastikcycle.in'
+[2023-09-19 16:47:25,744] Line No. 55 root - INFO - Found 'phone:tel': '084088 77669'
+[2023-09-19 16:47:25,766] Line No. 71 root - INFO - Found 'rating': '4.9
+(1,775)'
+[2023-09-19 16:47:28,860] Line No. 71 root - INFO - Found 'Name': 'D Byk Store - Premium Bicycle Sales & Service (Trek | Marin | Giant | Polygon | Muc Off | Shimano | Wahoo )'
+[2023-09-19 16:47:28,882] Line No. 55 root - INFO - Found 'address': '1st floor, Trade Net, Viman Nagar Junction, Above Maruti Suzuki showroom, Pune, Maharashtra 411014'
+[2023-09-19 16:47:28,905] Line No. 55 root - INFO - Found 'authority': 'dbykstore.com'
+[2023-09-19 16:47:28,924] Line No. 55 root - INFO - Found 'phone:tel': '070204 25618'
+[2023-09-19 16:47:28,949] Line No. 71 root - INFO - Found 'rating': '4.7
+(564)'
+[2023-09-19 16:47:32,071] Line No. 71 root - INFO - Found 'Name': 'Janata Enterprises'
+[2023-09-19 16:47:32,090] Line No. 55 root - INFO - Found 'address': 'Breman Chowk, Bhakti plaza, 4, Hinjawadi - Aundh Rd, near Leader Stationary, Opposite Aundh Police Chowky, Phase 1, Siddarth Nagar Society, Aundh, Pune, Maharashtra 411007'
+[2023-09-19 16:47:32,096] Line No. 57 root - ERROR - Element of type 'authority' not found.
+[2023-09-19 16:47:32,119] Line No. 55 root - INFO - Found 'phone:tel': '094053 04232'
+[2023-09-19 16:47:32,145] Line No. 71 root - INFO - Found 'rating': '4.7
+(780)'
+[2023-09-19 16:47:35,241] Line No. 71 root - INFO - Found 'Name': 'Surendar Cycle Stores'
+[2023-09-19 16:47:35,259] Line No. 55 root - INFO - Found 'address': '40/25, near Ranka Jewellers, Karve Rd, opp. sonal hall, Bhonde Colony, Erandwane, Pune, Maharashtra 411004'
+[2023-09-19 16:47:35,278] Line No. 55 root - INFO - Found 'authority': 'surendarcyclestores.com'
+[2023-09-19 16:47:35,298] Line No. 55 root - INFO - Found 'phone:tel': '020 2546 7357'
+[2023-09-19 16:47:35,315] Line No. 71 root - INFO - Found 'rating': '3.8
+(159)'
+[2023-09-19 16:47:38,447] Line No. 71 root - INFO - Found 'Name': 'Surana Cycles - Best Cycle Shop In Pune.'
+[2023-09-19 16:47:38,479] Line No. 55 root - INFO - Found 'address': 'Urban Bank, 743, Ganesh Rd, near Pune, Budhwar Peth, Pune, Maharashtra 411002'
+[2023-09-19 16:47:38,497] Line No. 57 root - ERROR - Element of type 'authority' not found.
+[2023-09-19 16:47:38,515] Line No. 55 root - INFO - Found 'phone:tel': '020 2445 8525'
+[2023-09-19 16:47:38,533] Line No. 71 root - INFO - Found 'rating': '4.5
+(434)'
+[2023-09-19 16:47:40,740] Line No. 81 root - INFO - Browser Closed.
+[2023-09-19 16:47:40,740] Line No. 83 root - INFO - Scrapped data written into leads2.csv
+[2023-09-19 16:47:49,288] Line No. 84 root - INFO - Completed Storing of csv file data to Google Sheets.
+[2023-09-19 16:47:51,099] Line No. 21 root - INFO - Logged into Gmail Account.
+[2023-09-19 16:47:51,099] Line No. 130 root - INFO - Email to Swastik Cycle - Bicycle Dealers in Pune: Hello from Mohit.
+[2023-09-19 16:47:51,099] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:47:51,099] Line No. 130 root - INFO - Email to D Byk Store - Premium Bicycle Sales & Service (Trek | Marin | Giant | Polygon | Muc Off | Shimano | Wahoo ): Hello from Mohit.
+[2023-09-19 16:47:51,099] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:47:51,099] Line No. 130 root - INFO - Email to Janata Enterprises: Hello from Mohit.
+[2023-09-19 16:47:51,099] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:47:51,099] Line No. 130 root - INFO - Email to Surendar Cycle Stores: Hello from Mohit.
+[2023-09-19 16:47:51,099] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:47:51,099] Line No. 130 root - INFO - Email to Surana Cycles - Best Cycle Shop In Pune.: Hello from Mohit.
+[2023-09-19 16:47:51,099] Line No. 136 root - INFO - Email Sent Status: Success
+[2023-09-19 16:47:51,345] Line No. 56 root - INFO - Logged out of Gmail Account.
+[2023-09-19 16:47:51,361] Line No. 149 root - INFO - Updated data written into leads2.csv
+[2023-09-19 16:47:51,770] Line No. 157 root - INFO - Updated Google Sheet with Email Text and Status.

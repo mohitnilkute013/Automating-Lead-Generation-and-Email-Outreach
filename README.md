@@ -68,4 +68,4 @@ PASSWORD="your_mail_id_password"
 Make sure to replace your OPENAI_API_KEY, EMAIL and PASSWORD.
 This is required to login into your Gmail Account for sending emails. And, also for connecting OpenAI API.
 
-Note: For now, the OpenAI account does not have a free subscription. So, I have not tested upon the OpenAi API. but according to my knowledge, it should work fine. If any problem occurs, make sure to check the logs.
+`Note`: For now, the OpenAI account does not have a free subscription. So, I have not tested upon the OpenAi API. but according to my knowledge, it should work fine. If any problem occurs, make sure to check the logs.

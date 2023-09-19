@@ -83,7 +83,7 @@ df.to_csv(csv_file_path)
 logger.info(f"Scrapped data written into {csv_file_path}")
 
 # Initialize Google Sheet manager for storing data to google sheets
-gsm = GoogleSheetsManager(credential_json="credentials\email-generation-using-chatgpt-9e8df841d5ff.json")
+gsm = GoogleSheetsManager(credential_json="credentials\gsheet.json")
 
 # Creating Spreadsheet 
 spreadsheet = gsm.open_spreadsheet(spreadsheet_name="Email Generation using Chatgpt")
@@ -115,22 +115,22 @@ for i in range(df.shape[0]):
     
     # Create a message for the company
     message = f"Write an Email to the CEO of {company_name}, Website: {website}, Company Address {address}, asking for some more information about their business for further business deal."
-    # try:
-    #     # Generate email content using the OpenAI API
-    #     output = openai.ChatCompletion.create(
-    #         model="gpt-3.5-turbo",
-    #         messages=[{"role": "user", "content": message}]
-    #     )
-    # except Exception as e:
-    #     logger.error("Error with Open AI API, please check your credentials.")
+    try:
+        # Generate email content using the OpenAI API
+        output = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": message}]
+        )
+    except Exception as e:
+        logger.error("Error with Open AI API, please check your credentials.")
     
     # Extract the generated email text
-    email_text = "Hello from Mohit." #output['choices'][0]['message']['content']
+    email_text = output['choices'][0]['message']['content']
     all_emails.append(email_text)
     logger.info(f"Email to {company_name}: {email_text}")
 
-    # status = email_sender.send_email(business_name=company_name, to_email=email_id, subject="Testing", body=email_text)
-    status = True
+    status = email_sender.send_email(business_name=company_name, to_email=email_id, subject="Testing", body=email_text)
+    # status = True
     status = "Success" if status == True else "Failed"
     status_arr.append(status)
     logger.info(f"Email Sent Status: {status}")
